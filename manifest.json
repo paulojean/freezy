@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+  "name": "Freezy",
+  "version": "0.1",
+
+  "description": "Prevent [some] mouse events to be captured",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_scripts/freezy.js"]
+    }
+  ]
+}
