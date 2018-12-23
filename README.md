@@ -1,7 +1,8 @@
 # FREEZY
 
 Firefox extension to prevent events to be captured.
-*Obs:* Probably decrease usability.
+
+**Obs:** Probably decrease site's usability.
 
 Prevent the following mouse events to be captured
 ```
@@ -16,3 +17,6 @@ pointerlockerror
 select
 wheel
 ```
+
+# TODO
+- [ ] Allow/Disable based on config
