@@ -22,7 +22,7 @@ browser.storage.local.get()
   .then(res => [ res.urls || [],
                  res.mouseEvents || defaultMouseEvents ])
   .then(([ urls, mouseEvents ]) => {
-    const endingHostPattern = url => `${url}$`
+    const endingHostPattern = url => `\.${url}$|^${url}$`
     const host = window.location.host
     const hostAllowed = urls.find(url => {
       const regex = new RegExp(endingHostPattern(url))

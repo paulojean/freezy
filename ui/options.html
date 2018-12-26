@@ -9,11 +9,14 @@
     <div id="inputs-container">
       <div class="input-box">
         <label id="urls-label">Allow all mouse events in these hosts:</label>
-        <textarea rows=5 type="text" id="urls"></textarea>
+        <textarea id="urls"
+                  rows=5
+                  type="text"
+                  placeholder="&quot;mozilla.org&quot; will match everything that ends with &quot;.mozilla.org&quot;, such as &quot;mozilla.org&quot; and &quot;developers.mozilla.org&quot;"></textarea>
       </div>
       <div class="input-box">
         <label id="mouse-events-lable">Mouse events disabled in hosts:</label>
-        <textarea rows=5 type="text" id="mouse-events"></textarea>
+        <textarea id="mouse-events" rows=5 type="text"></textarea>
       </div>
     </div>
     <button id="save-prefs" type="submit">Save</button>
