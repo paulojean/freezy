@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Freezy",
-  "version": "0.1",
+  "version": "0.1.1",
 
   "description": "Prevent [some] mouse events to be captured",
 
