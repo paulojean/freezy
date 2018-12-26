@@ -4,19 +4,7 @@ Firefox extension to prevent events to be captured.
 
 **Obs:** Probably decrease site's usability.
 
-Prevent the following mouse events to be captured
-```
-auxclick
-contextmenu
-mousemove
-mouseover
-mouseout
-mouseup
-pointerlockchange
-pointerlockerror
-select
-wheel
-```
+Prevent these [mouse events](https://github.com/paulojean/freezy/blob/master/content_scripts/freezy.js#L1-L10) to be captured by default (this can be changed from the options page).
 
 # TODO
 - [x] Allow/Disable based on config
