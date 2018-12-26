@@ -1,0 +1,27 @@
+body {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+#inputs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-box {
+  width: 50%
+}
+
+.input-box textarea {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+}
+
+button#save-prefs {
+  margin: 2px 0 2px 0
+}

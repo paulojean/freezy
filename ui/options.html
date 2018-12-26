@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="options.css">
+  </head>
+
+  <body>
+    <div id="inputs-container">
+      <div class="input-box">
+        <label id="urls-label">Allow all mouse events in these hosts:</label>
+        <textarea rows=5 type="text" id="urls"></textarea>
+      </div>
+      <div class="input-box">
+        <label id="mouse-events-lable">Mouse events disabled in hosts:</label>
+        <textarea rows=5 type="text" id="mouse-events"></textarea>
+      </div>
+    </div>
+    <button id="save-prefs" type="submit">Save</button>
+    <button id="reset-prefs" type="submit">Restore preferences</button>
+
+    <script src="options.js"></script>
+  </body>
+</html>
