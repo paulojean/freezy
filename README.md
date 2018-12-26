@@ -19,4 +19,5 @@ wheel
 ```
 
 # TODO
-- [ ] Allow/Disable based on config
+- [x] Allow/Disable based on config
+- [x] Allow user to add/remove Events to be blocked

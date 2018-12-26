@@ -10,5 +10,13 @@
       "matches": ["<all_urls>"],
       "js": ["content_scripts/freezy.js"]
     }
+  ],
+  "options_ui": {
+    "page": "ui/options.html",
+    "browser_style": true
+  },
+  "permissions": [
+    "storage",
+    "<all_urls>"
   ]
 }
