@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
-  "name": "Freezy",
-  "version": "0.1.3",
+  "name": "NoEvent",
+  "version": "0.1.0",
 
   "description": "Prevent [some] mouse events to be captured",
 
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content_scripts/freezy.js"]
+      "js": ["content_scripts/noevent.js"]
     }
   ],
   "options_ui": {

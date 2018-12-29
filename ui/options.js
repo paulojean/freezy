@@ -10,7 +10,7 @@ const defaultMouseEvents = [
 ]
 
 const logError = err => console
-  .error('Freezy extension error:', err)
+  .error('NoEvent extension error:', err)
 
 const textToArray = text => text
   .split('\n')
